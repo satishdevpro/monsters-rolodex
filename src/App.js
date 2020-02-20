@@ -20,7 +20,7 @@ class App extends Component {
   }
 
   handleChange = e => {
-    this.setState({ searchfield: e.target.value });
+    this.setState({ searchField: e.target.value });
   };
 
   render() {
@@ -31,7 +31,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h2>Monsters Rolodex</h2>
+        <h1>Monsters Rolodex</h1>
         <SearchBox
           placeholder="search monsters"
           handleChange={this.handleChange}
